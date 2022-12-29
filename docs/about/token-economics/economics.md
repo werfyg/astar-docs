@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# About Astar and Shiden Tokens
+# Astar and Shiden Token
 
-Astar Token is the utility token for Astar Network that has 3 primary functions.
+Astar Token is the native token for Astar Network that has 3 primary functions.
 
 1. dApp Staking
 2. Transactions
@@ -12,9 +12,9 @@ Astar Token is the utility token for Astar Network that has 3 primary functions.
 
 ## dApps Staking
 
-DApps Staking is an original scheme that Astar Network core team invented and only the Astar ecosystem supports this feature in the Polkadot ecosystem. Astar Network aims to be the leading dApps hub on Polkadot Network. Hence, we prepared incentives for dApps developers to make smart contracts on Astar Network.
+DApps Staking is an novel scheme invented by the Astar Network core team. Only the Astar provides this benefit in the Polkadot ecosystem as a whole. Astar Network aims to be the leading dApps hub on Polkadot Network. Hence, we prepared incentives for dApp developers to build smart contracts on Astar Network.
 
-dApps Staking is a simple but strong mechanism. Astar token holders can stake Astar tokens on dApps they like and want to support. By doing so, the staker earns Astar tokens from block rewards. In addition to that, dApps developers get rewards based on the amount staked on them. In general, application developers on Astar Network receive Astar tokens by making smart contracts or infrastructure for Astar Network community. We intend to make it a  sustainable and decentralized grant mechanism.
+dApps Staking is a simple but strong mechanism. Astar token holders can stake Astar tokens on dApps they like and want to support. By doing so, the staker earns Astar tokens from block rewards. In addition, dApp developers get rewards based on the amount staked on them. Accordingly, developers building on Astar Network receive Astar tokens for making smart contracts or infrastructure for Astar Network community. We intend to make it a  sustainable and decentralized crowdfunding mechanism.
 
 ## Transactions
 

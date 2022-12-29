@@ -6,16 +6,16 @@ sidebar_position: 1
 
 [Astar Network]: https://astar.network/
 
-Astar Network is the future of smart contracts platform for multichain. The network supports the building of dApps with EVM and WASM smart contracts and offers developers true interoperability, with cross-consensus messaging (XCM). We are made by developers and for developers. Astar’s unique Build2Earn model empowers developers to get paid through a dApp staking mechanism for the code they write and dApps they build.
+Astar Network is the future of smart contract platforms for multichain. The network supports the building of dApps with EVM and WASM-based smart contracts and offers developers true interoperability, with Polkadot's cross-consensus messaging (XCM). Astar is made by developers for developers. Our unique Build2Earn model empowers developers to get paid through a dApp staking mechanism for the code they write and dApps they deploy.
 
-Astar Network focuses on making the best smart contract platform so that dApps developers on Polkadot do not need to pay much attention to infrastructure and can focus more on their dApp. Ideally, the developers can build whatever applications on Astar Network without having to consider its scalability. [Astar Network](https://astar.network/) solves prominent issues: scalability
+Astar Network focuses on making the best smart contract enviroment so that dApps developers on Polkadot do not need to pay much attention to infrastructure and can focus more on their dApp. Ideally, the developers can build whatever applications on Astar Network without having to consider its scalability. [Astar Network](https://astar.network/) solves prominent issues: scalability
 interoperability and lack of developer incentive.
 
 ## Scalability
 
-Blockchains do not scale by design because of the decentralized consensus mechanism. TPS (Transaction Per Second) is much smaller than a centralized database and there is an upper limit of data that can be stored in every block. Therefore, users across the network may notice their transactions sit unconfirmed or pending for long periods of time, creating a poor user experience.
+Blockchains do not scale by design because of their limiting decentralized consensus mechanisms. TPS (Transaction Per Second) is much smaller than a centralized database and there is an upper limit of data that can be stored in every block. Therefore, users across the network may notice their transactions sit unconfirmed or pending for long periods of time, creating a poor user experience.
 
-Scalability on the Astar Network is addressing the followings topics:
+Scalability on the Astar Network addresses the followings topics:
 
 - More Transaction Per Second (TPS)
 - Cheaper transaction cost
@@ -25,7 +25,7 @@ Scalability on the Astar Network is addressing the followings topics:
 
 Many different blockchains exist but few have interoperability as a feature. To move "value" from Bitcoin to Ethereum, we need a centralized exchange. Polkadot is a sharded protocol that enables blockchain networks to operate together seamlessly.
 
-[Astar Network] is compatible with Polkadot. By connecting Astar Network to Polkadot, we have true interoperability.
+[Astar Network] is compatible with Polkadot as a native parachain. By connecting Astar Network to Polkadot, we have true interoperability.
 
 ## Lack of Developer Incentive
- DApp developers are the most important human resource in the blockchain industry but they are paying a lot of costs to develop dApps or infrastructure projects. Astar has a #Build2Earn protocol that allows developers to earn basic income while making products.
+ DApp developers are the most important human resource in the blockchain industry, yet they are paying excessive costs to develop dApps or infrastructure projects. Astar has a #Build2Earn protocol that allows developers to earn basic income while making products, through an intuitive crowdfunding mechanism.
