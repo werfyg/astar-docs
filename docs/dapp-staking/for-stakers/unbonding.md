@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Overview
 
-Bonding is a process by which tokens are temporarily locked. Staking is one of the scenarios that require tokens to be bonded. Unbonding is the action of telling the network that you want to unlock these tokens. After the unbonding time, which is 5 days for Shiden and 10 days for Astar, you can withdraw the tokens, and they become transferable. Please note that this is based on a perfect block production of 12s. In case of any delay, your unbonding period can be a little longer.
+Bonding is a process by which tokens are temporarily locked. Staking is one of the scenarios that require tokens to be bonded. Unbonding is the action of telling the network that you want to unlock these tokens. After the unbonding period, which is 5 days for Shiden and 10 days for Astar, you can withdraw the tokens, and they once again become transferable. Please note that this is based on a perfect block production of 12s. In case of any delay, your unbonding period can be a little longer.
 
 | Network | Unbonding period |
 | --- | --- |

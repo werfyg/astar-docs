@@ -2,7 +2,7 @@
 
 ## Overview
 
-Are you a product owner and want to list your dApp in our staking mechanism to earn rewards? You have to make sure you meet the requirements. Read more about those by clicking on the links below.
+Are you a product owner and want to list your dApp to earn rewards? You have to make sure you meet the requirements. Read more about those by clicking on the links below.
 
 Please take the following parameters into consideration:
 
