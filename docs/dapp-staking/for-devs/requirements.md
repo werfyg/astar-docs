@@ -6,8 +6,6 @@ sidebar_position: 1
 
 **Are you a project owner and want to list your dApp in our staking mechanism to earn rewards?** Please read these guidelines carefully. If you meet all the requirements, you can just continue filling in [this form](https://share.hsforms.com/1UFPFJXq6S1SN-j1lyMrNIgc2ryh) so we can list your dApp.
 
-Are you interested to join dApp staking on Shiden or Astar? Read carefully to see if you meet the requirements:
-
 :::info
 Astar is aiming to become a DAO in a couple of years. While moving towards becoming a DAO our dApp staking onboarding also includes passing our council. The process is to create your proposal to join dApp staking also on our [forum](https://forum.astar.network/c/initiatives/dapp-staking-applications/21) after meeting the requirements below.
 :::
@@ -20,10 +18,10 @@ Astar is aiming to become a DAO in a couple of years. While moving towards becom
 
 ### What about infrastructure partners?
 
-You don’t have any dApp but you are providing infrastructure services to the Astar ecosystem. You also can be added to dApp staking. How to join:
+You don’t have a dApp but you are providing infrastructure services to the Astar ecosystem. You also can be added to dApp staking. How to join:
 
 - You already have a long-term partnership with Astar and a close relationship with some projects.
-- You have a proven record in our ecosystem.
+- You have a proven record of useage in our ecosystem.
 - You have docs about how to use your tools in our documentation and in yours. You can add instructions to our documentation by creating a PR on our Github.
 
 ### What about other projects who can't meet the above requirements?

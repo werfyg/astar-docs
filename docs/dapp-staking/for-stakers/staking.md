@@ -25,7 +25,7 @@ Make sure you are connected to the correct network.
 
 ### Stake
 
-Look for your favorite project. The staked TVL is available on the top of the page. Click on the project cards to get more information, go to their communities or check the team accounts. Another great resource is looking in our [forum](https://forum.astar.network/), check [DefilLama](https://defillama.com/) or [DappRadar](https://dappradar.com/).
+Look for your favorite project. The staked TVL is available on the top of the page. Click on the project cards to get more information, go to their communities or check the team accounts. Some great resources for evaluating are our official [forum](https://forum.astar.network/), [DefilLama](https://defillama.com/), or [DappRadar](https://dappradar.com/).
 <div style={{textAlign: 'center'}}>
 
 ![18_projects](img/18_projects.png)
@@ -62,7 +62,7 @@ Once you have staked, new options to manage your dApp staking will appear on `My
 
 **Unbonding Panel:**
 
-The unbonding panel is where you can see the progress of unbonding and withdraw. Once it’s unbonding we cannot know which dApp you have unbonded from but remain as `Chunks`. There is a unbonding period of 10 ERAs for Astar and 5 EARs on Shiden. After you have unstaked and when those ERAs pass, you will be able to withdraw. More information about [Unbonding](unbonding).
+The unbonding panel is where you can see the progress of unbonding and withdraw. Once it’s unbonding we cannot know which dApp you have unbonded from but remain as `Chunks`. There is a unbonding period of 10 ERAs for Astar and 5 ERAs on Shiden. After you have unstaked and when those ERAs pass, you will be able to withdraw. More information about [Unbonding](unbonding).
 
 ----
 

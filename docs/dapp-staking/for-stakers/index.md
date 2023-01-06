@@ -2,7 +2,7 @@
 
 ## Overview
 
-Do you love to stake? Or do you want to support your favorite project by staking on their dApp? You can educate yourself by reading the documentation carefully. In case you have any questions, come and join our Discord channel.
+Do you want to support your favorite project by staking on their dApp? You can educate yourself by reading the documentation carefully. In case you have any questions, come and ask us directly in our Discord channel.
 
 Please take the following parameters into consideration:
 
