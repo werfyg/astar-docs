@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-# Smart-contract Stack
+# Smart-Contract Stack
 
 ## Smart Contract Runtime Environment
 
-Astar & Shiden runtimes are based on Substrate. Both networks incorporate `pallet-contracts` to enable Wasm smart-contract capabilities. The `pallet-contracts` is a sandbox environment to deploy and execute WebAssembly smart contracts. Any language that compiles to Wasm can be used. But the code should be compatible with `pallet-contracts` API.
+The runtime of Astar & Shiden is based on Substrate. Both networks incorporate `pallet-contracts` to enable WebAssembly smart-contract capabilities. `pallet-contracts` is a sandbox environment to deploy and execute Wasm smart contracts. While any language that compiles to Wasm can be used, the code must be compatible with `pallet-contracts` API.
 
-To avoid unnecessary complexity, and boilerplate code, the best way is to use an eDSL that specifically targets the `pallet-contracts` like `ink!` (based on Rust) or `ask!` (based on AssemblyScript). More supported language and eDSL will come as the ecosystem grows.
+To avoid unnecessary complexity, and boilerplate code, it is best to use an eDSL, like `ink!` (based on Rust) or `ask!` (based on AssemblyScript), that specifically targets `pallet-contracts`. More supported language and eDSL will be introduced moving forward.
 
-The Wasm blob is then deployed and stored on-chain.
+The resulting Wasm blob is then deployed and stored on-chain.
 
 ### Transaction fees
 
@@ -26,7 +26,7 @@ One gas is equivalent to one weight, defined as one picosecond of execution time
 
 ##### automatic deposit collection
 
-Additionally to the weight, there is also a fee paid for on-chain storage called *automatic deposit collection*. This additional fee is paid by the caller and is calculated with the price set for each storage item `DepositPerItem` and the price charged for each byte of storage `DepositPerByte`.
+In Addition to weight, there is also a fee paid for on-chain storage called *automatic deposit collection*. This additional fee is paid by the caller and is calculated with the price set for each storage item `DepositPerItem` and the price charged for each byte of storage `DepositPerByte`.
 
 The *automatic deposit collection* can be simplified as follows:
 
@@ -37,16 +37,16 @@ A caller of a contract pays a deposit to each contract in which new storage was 
 [ink! 3.0 Blog Post by Parity](https://www.parity.io/blog/ink-3-0-paritys-rust-based-language-gets-a-major-update)
 
 ##### Loading from storage weight
-In order to prevent from theoretical PoV attack, as contract's WASM blob should be loaded from storage to be sent via network for state changes validation (included into PoV), a [weight per byte](https://github.com/paritytech/substrate/blob/97ae6be11b0132224a05634c508417f048894670/frame/contracts/src/lib.rs#L331-L350) of code is charged when loading a contract from storage.
+In order to prevent theoretical PoV attacks as the contract's WASM blob is loaded from storage to be sent via the network for a state change validation (included into PoV), a [weight per byte](https://github.com/paritytech/substrate/blob/97ae6be11b0132224a05634c508417f048894670/frame/contracts/src/lib.rs#L331-L350) of code is charged when loading a contract from storage.
 
 
 ### Execution Engine
 
-Pallet-contracts uses [wasmi](https://github.com/paritytech/wasmi) as a wasm-interpreter to execute the smart-contract Wasm blob. Even though there is a faster JIT interpreter like [wasmtime](https://github.com/bytecodealliance/wasmtime) used in the native runtime, smart contracts are an untrusted environment and that’s why the high degree of correctness of wasmi makes it the best option.
+Pallet-contracts use [wasmi](https://github.com/paritytech/wasmi) as a wasm-interpreter to execute the smart-contract Wasm blob. Even though there are faster JIT interpreters like [wasmtime](https://github.com/bytecodealliance/wasmtime) used in the native runtime, smart contracts are an untrusted environment and require a high degree of correctness. This makes wasmi the current best option.
 
 ### Two-step Deployment of Contracts
 
-The contract code (Wasm blob) and the contract address and storage are decoupled from each other. To deploy a non-existing contract on-chain:
+Note that the contract code (Wasm blob), the contract address, and storage are decoupled from each other. To deploy a non-existing contract on-chain:
 
 1. First, upload the Wasm contract on-chain (every contract Wasm code has a `code_hash` as an identifier).
 2. Second, instantiate the contract - it will create an address and storage for that contract.
@@ -54,10 +54,10 @@ The contract code (Wasm blob) and the contract address and storage are decoupled
 
 There are several perks of decoupling contract code and address/storage:
 
-- It will save space on-chain. Since a contract can have several constructors and several instantiations, it will just create a new instance based on the same underlying code. Think about standardized tokens, like [PSP22][PSP22] & [PSP34][PSP34], that will have one `code_hash` & `blob` leaving on-chain, and as many instantiations as it is needed rather than having code uploaded at each new instantiation (like in Ethereum).
+- It saves space on-chain. Since a contract can have several constructors and instantiations, it will just create a new instance based on the same underlying code. Think about standardized tokens, like [PSP22][PSP22] & [PSP34][PSP34], that will have one `code_hash` & `blob` on-chain and as many instantiations as is needed, rather than having code uploaded at each new instantiation (like in Ethereum).
 - To instantiate a contract from within contract code (see delegator example), only `code_hash` needs to be provided.
-- Some standards contracts ([PSP22][PSP22], [PSP34][PSP34]) will only be uploaded on-chain once, preventing users from paying the gas fees of uploading new code.
-- Update contract code for an address: replace the contract code at the specified address with a new code (see [set_code_hash][set_code_hash]). Storage and balances will be preserved.
+- Some standards contracts ([PSP22][PSP22], [PSP34][PSP34]) are only uploaded on-chain once, preventing users from paying additional gas fees from uploading new code.
+- Storage and balances will be preserved when updating contract code for an address. Simply replace the contract code at the specified address with a new code (see [set_code_hash][set_code_hash]).
 
 ### Documentation about `pallet-contracts`
 
@@ -66,7 +66,7 @@ There are several perks of decoupling contract code and address/storage:
 
 ## Smart Contracts
 
-To facilitate development it is better to use a language targeting specifically `pallet-contracts`.
+To facilitate quality development, it is better to use a language that specifically targets `pallet-contracts`.
 
 There are two eDSLs currently available
 
@@ -75,13 +75,13 @@ There are two eDSLs currently available
 
 ## Client APIs
 
-The only library available to communicate with smart contracts is [PolkadotJS API](https://github.com/polkadot-js/api).
+Currently, the only library available to communicate with smart contracts is [PolkadotJS API](https://github.com/polkadot-js/api).
 
 :::info
 This API provides application developers the ability to query a node and interact with the Polkadot or Substrate chains using Javascript.
 :::
 
-Parity also developed a web application to interact with contracts called [contracts-ui](https://github.com/paritytech/contracts-ui).
+[Parity](https://www.parity.io/) has also developed a web application to interact with contracts called [contracts-ui](https://github.com/paritytech/contracts-ui).
 
 ## Stack comparison to Ethereum
 

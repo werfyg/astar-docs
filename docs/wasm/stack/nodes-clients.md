@@ -8,21 +8,21 @@ sidebar_position: 3
 
 ### Swanky Node
 
-Swanky Node is the local development node tracking the Shiden network.
+Swanky Node is the local development node tracking the Astar/Shiden network.
 
 It is the best choice if you want to develop your contract & test it in the local environment prior to deployment on Astar/Shiden mainnet.
 
 Features:
 
 - Consensus: `instant-seal` and `manual-seal`
-- dApps staking enabled
+- dApp staking
 - Chain-extensions
 
 You can find the Github repo [here](https://github.com/AstarNetwork/swanky-node).
 
 ### Substrate Contract Node
 
-Substrate contract node targets substrate master. It is the best choice if you want to try the latest feature or unstable feature of ink! and/or pallet-contracts.
+Substrate contract node targets the Substrate master. It is the best choice if you want to try the latest or unstable features of ink! and/or pallet-contracts.
 
 Features:
 
@@ -45,7 +45,7 @@ Wasm contracts are live on Shiden. You can interact with them in the same way as
 
 ## Mainnet Node: Astar
 
-At the moment, Wasm smart contracts are not available on Astar. They should go live during 2022 Q3.
+At the moment, Wasm smart contracts are not available on Astar. They should go live during Q2 of 2023.
 
 ## Network Infographic
 ![1](img/1.png)
