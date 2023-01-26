@@ -37,7 +37,7 @@ Shibuya has almost the exact chain specifications as our mainnet Shiden & Astar 
 
 Shibuya's `pallet-contracts` has `unstable-feature` so you can use unstable flagged features of ink! `pallet-contracts`.
 
-To get the latest info & get tokens via faucet, please check Shibuya's official docs.
+To get the latest info and get tokens via faucet, please check [nodes](https://docs.astar.network/docs/nodes/) and [faucets](https://docs.astar.network/docs/quickstart/faucet/).
 
 ## Mainnet Node: Shiden
 
