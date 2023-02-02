@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ### Address Format
 
-The address format used in Substrate-based chains like Astar is SS58. SS58 is a modification of Base-58-check from Bitcoin with some minor modifications. Notably, the format contains an address type prefix that identifies an address as belonging to a specific network. Astar Network is special in the Polkadot ecosystem because it's the only parachain that supports EVM as WASM smart contract. With the use of two different virtual machines comes two different kinds of addresses.
+The address format used in Substrate-based chains like Astar is SS58. SS58 is a modification of Base-58-check from Bitcoin with some minor modifications. Notably, the format contains an address type prefix that identifies an address as belonging to a specific network. Astar Network is special in the Polkadot ecosystem because it's the only parachain that supports EVM as Wasm smart contract. With the use of two different virtual machines comes two different kinds of addresses.
 
 - An Astar Native address or SS58 address
 - An Astar EVM address or H160 address which starts with 0x
@@ -16,13 +16,13 @@ The address format used in Substrate-based chains like Astar is SS58. SS58 is a 
 <img width="800" alt="1" src="https://user-images.githubusercontent.com/77480847/186840773-5874ba05-a067-4204-b72f-3f1017de85b7.png" />
 <img width="800" alt="2" src="https://user-images.githubusercontent.com/77480847/186840936-692dc1f3-c5a8-450f-813c-6067c60f8cc2.png" />
 
-You will interact with our Astar native address when using WASM dApps are ready or our dApps Staking page. Using this address requires another extension than MetaMask. We recommend using the Polkadot JS extension if you are new to the ecosystem.
+You will interact with our Astar native address when using Wasm dApps are ready or our dApps Staking page. Using this address requires another extension than MetaMask. We recommend using the Polkadot JS extension if you are new to the ecosystem.
 
 ## Astar Portal
 
 [Astar Portal]: https://portal.astar.network/
 
-The [Astar Portal] is the place to be for doing anything in our ecosystem. The Astar developers created a one-stop-place for everyone who wants to interact in our ecosystem.
+The [Astar Portal] is a one-stop-place for everyone who wants to interact with our ecosystem.
 
 Through our portal, you can connect to different networks in the Astar ecosystem. 
 
@@ -56,7 +56,7 @@ You should back up these words. Please, store the seed somewhere safe, secret, a
 
 ![8](img/8.png)
 
-Best to create an account that is allowed on any chain in the Polkadot ecosystem. This account can then be used for Polkadot and Kusama. Your account will automatically change format when connected to a chain.
+We recommend to create an account that is allowed on any chain in the Polkadot ecosystem. This account can then be used for Polkadot and Kusama. Your account will automatically change format when connected to a chain.
 
 A **descriptive name** is arbitrary and for your use only. It is not stored on the blockchain and will not be visible to other users who look at your address via a block explorer. If you're juggling multiple accounts, it helps to make this as descriptive and detailed as needed.
 

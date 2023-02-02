@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Swap Cross-Chain Assets from Major EVM Chains to Astar
 
-In this tutorial, we will guide you through the process for making a cross-chain swap from at least 12 EVM chains to Astar.
+This tutorial will guide you through the process for making a cross-chain swap from at least 12 EVM chains to Astar.
 
 ## Visit XY Finance’s X swap page
 

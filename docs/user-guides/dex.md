@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Buying ASTR on a DEX
 
-There are a few DEXs that are built on Astar Network. Arthswap is one of them. Arthswap is built on EVM, therefore we need to interact in the EVM environment.
+There are a few DEXs that are built on Astar Network. This guide will show you how to use Arthswap. Arthswap is built on EVM, therefore we need to interact with the EVM environment.
 
 ## Setup MetaMask
 
