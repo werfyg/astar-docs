@@ -6,16 +6,16 @@ import Figure from './figure'
 
 # Swanky Suite
 
-Swanky Suite aims to be a "all-in-one" tool for Wasm smart contract developers. It is based on existing tools like` cargo contract CLI` and `polkadot.js` but extending with many additional features such as generating a new smart contract environment based on example projects and providing an instant finality node (Swanky node) which will shorten the contract development lifecycle. Swanky Suite is the tool that enables all existing (and future) Web3 developers to have an equal experience compared to EVM dev tooling.
+Swanky Suite aims to be an "all-in-one" tool for Wasm smart contract developers. It is based on existing tools like` cargo contract CLI` and `polkadot.js` but extends them with many additional features such as generating a new smart contract environment based on example projects and providing an instant finality node (Swanky node) which shortens the contract development lifecycle. Swanky Suite is the tool that enables all Web3 developers to have an equal experience compared to EVM dev tooling.
 
 Features of Swanky Suite:
 
 - Quick start a local contract development node with instant finality (Swanky Node)
-- Scaffolding a new project with various templates for both smart contracts and front-end dApp. ie. Truffle for ink!
-- Compiling projects with various languages (like Ink!, Ask-Lite, …)
+- Scaffolding a new project with various templates for both smart contracts and front-end. ie. Truffle for ink!
+- Compiling projects with various languages (like Ink!, Ask-Lite, etc)
 - Setting up RPC tests and integration tests via npm for interacting with smart contracts on the client-side
 - Handling network accounts
-- Deploying smart contracts to networks within the Dotsama ecosystem that support pallet-contracts
+- Deploying smart contracts to networks within the Dotsama ecosystem that support https://docs.astar.network/docs/nodes/pallet-contracts
 - Making arbitrary calls to the deployed smart contracts
 
 Below is the user documentation for Swanky CLI which is meant to be used hand-in-hand with Swanky Node.

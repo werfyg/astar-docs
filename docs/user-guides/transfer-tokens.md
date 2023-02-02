@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # How to transfer tokens
 
-In this tutorial we will navigate you how to transfer tokens using Portal and sending tokens to Portal.
+In this tutorial we will show you how to send and transfer tokens using Astar Portal.
 
 <br />
 

@@ -8,7 +8,7 @@ There are a few DEXs that are built on Astar Network. This guide will show you h
 
 ## Setup MetaMask
 
-Go Metamask extension -> Settings -> Network -> Add Network
+Open Metamask -> Settings -> Network -> Add Network
 
 Use this Custom RPC below:
 
@@ -23,7 +23,7 @@ Use this Custom RPC below:
 To buy ASTR, you need to have other assets which you can use to swap. One way to do that is to bridge your Ethereum assets such as wETH, USDT and USDC to Astar Network.
 
 1. Go to <http://app.arthswap.org/#/swap>
-2. Click on “Bridge” and you will be taken to <https://cbridge.celer.network/#/transfer>
+2. Click on “Bridge” and you will be directed to <https://cbridge.celer.network/#/transfer>
 3. Go to “Transfer”, select “From Ethereum” and “To Astar” and connect Metamask.
 4. Select the asset that you would like to bridge e.g USDT.
 5. Click “Transfer” and you will have USDT on Astar Network.
