@@ -1,0 +1,23 @@
+#Hint 0 - Details covered here - https://vale.sh/docs/vale-cli/structure/#vocab
+#Hint 1 - Capitalization matters. Using (?i) suggests capitalization does not matter.
+#Hint 2 - Wasm is correct spelling, Vale Spelling suggests this one over all others - be it WASM, wAsM.
+#Hint 3 - it is usually sufficient to write in singular, and Vale will recognize other situations. (e.g. delist covers delisted as well)
+Wasm
+Astar
+Shiden
+Shibuya
+Polkadot
+Kusama
+Arthswap
+parachain
+tokenomics
+lockdrop
+staker
+referenda
+multisig
+unbond
+unregister
+testnet
+crowdloan
+testnet
+delist

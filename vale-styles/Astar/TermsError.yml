@@ -1,0 +1,21 @@
+extends: substitution
+message: "Please use '%s' not '%s'."
+level: warning
+ignorecase: true
+
+action:
+  name: replace
+swap:
+  WASM: Wasm
+  (?i)dapps staking: dApp Staking
+#  Dapp: dApp
+  web3: Web3
+  (?i)relaychain: Relay Chain
+  (?i)Chain-extensions: Chain Extensions
+  (?i)Chain-extension: Chain Extension
+  (?i)TL;DR: Overview
+  (?i)Buidl2Earn: Build2Earn
+  (?i)^water: Water
+
+
+
