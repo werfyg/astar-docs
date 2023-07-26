@@ -18,9 +18,9 @@ OnFinality's Unified NFT API is provided as an open source project, and a public
 
 ## Getting started
 
-Paste your queries into [https://nft-beta.onfinality.io/public](https://nft-beta.onfinality.io/public) and press play.
+Paste your queries into [https://nft-beta.onfinality.io](https://nft-beta.onfinality.io) and press play.
 
-Public GraphQL Endpoint (Beta): [nft-beta.api.onfinality.io](https://nft-beta.api.onfinality.io).
+Public GraphQL Endpoint (Beta): [nft-beta.api.onfinality.io/public](nft-beta.api.onfinality.io/public).
 
 *The Beta version of our public endpoint is intended for development, experimentation, and validation purposes. It should not be used in a production environment. We will be launching the production endpoint and service in the coming weeks.*
 
